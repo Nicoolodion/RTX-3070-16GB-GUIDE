@@ -22,8 +22,8 @@ This guide provides a detailed step-by-step process for upgrading the NVIDIA RTX
 
 ### **Hardware Tools:**
 
-- Soldering station (with hot air rework capability)
-- Heat gun
+- Soldering station
+- Heat gun/Station (adjustable Temperature highly recommened)
 - Flux (no-clean)
 - Isopropyl alcohol (99%)
 - Precision tweezers
@@ -146,7 +146,7 @@ This guide provides a detailed step-by-step process for upgrading the NVIDIA RTX
 
 - Ensure proper testing before heavy usage.
 - Don't be stupid. If you don't understand a single word from here. Please do NOT touch your GPU. This is an extremely risky mod.
-- For Legal reasons: I cannot be held liable for anything done in this Guide. Everything is up to your own Risk!
+- For Legal reasons: I cannot be held liable for anything in this Guide. Everything is up to your own Risk!
 
-If you got any issue or questions just write me or open a bug. Just don't expect me to know the issue. This is also my first time doing something like this \:D
+If you got any issue or questions just write me or open a Issue. Just don't expect me to know the Solution. This is also my first time doing something like this \:D
 
