@@ -1,0 +1,2 @@
+# RTX-3070-16GB-GUIDE
+A Guide for Modding a RTX 3070 to 16 GB VRAM
