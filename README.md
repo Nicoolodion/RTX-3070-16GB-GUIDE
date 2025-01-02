@@ -137,7 +137,7 @@ Do **NOT** do this mod if you have never soldered before, or are not willing to 
   - Open **Firestorm** , **Evga Precision X1**  or MSI Afterburner.
   - Underclock GPU core and VRAM clocks slightly. (TODO: Update this)
 
-### **Issue 3: Stability Issues
+### **Issue 3: Stability Issues **
 
 - Adjust memory timings if using the **HC16 modules**.
 - Use stock timings initially, then test higher speeds incrementally.
