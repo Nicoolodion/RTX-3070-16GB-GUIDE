@@ -56,21 +56,22 @@ Do **NOT** do this mod if you have never soldered before, or are not willing to 
 2. Watch tutorial videos for visual references:
    - [Tutorial 1](https://www.youtube.com/watch?v=EM1UL4GHviU\&t=1s)
    - [Tutorial 2](https://www.youtube.com/watch?v=wh5EeJKUYjk)
-3. Ensure a static-free workspace. Probably makes it safer.
+3. Ensure a static-free workspace. Just makes it safer. I also haven't got one so...
 
 ---
 
 ## **3. Disassembly**
 
 1. Remove the heatsink, and backplate.
-2. Note thermal pad placement and thickness. Take **photos** of VRAM module orientation.
-3. Use heat-resistant tape to cover sensitive components and GPU die.
-4. Protect the GPU core with a **thick metal plate** to shield it during heating.
+2. Note thermal pad placement and thickness. Take **photos** of VRAM module orientation. (Not necessary. Can also be found out by looking at the triangles on the chip and the pads on the board)
+3. Use heat-resistant tape to cover sensitive components and GPU die. (Krepton Tape)
+4. Protect the GPU core with a **thick metal plate** or at least some Aluminium foil to shield it during heating.
+5. Protect the capacitors using some additional alumuminum foil.
 
 ---
 
 ## **4. Removing VRAM Modules**
-
+1. Preheat the Board to around 120 Degrees.
 1. Apply **flux** around the VRAM modules.
 2. Heat each module using a **heat gun (very risky due to the missing temperature settings)** or **hot air station until solder melts.**
 3. Carefully lift off the modules with tweezers.
@@ -87,7 +88,7 @@ Do **NOT** do this mod if you have never soldered before, or are not willing to 
 
 ---
 
-## **6. Soldering Straps**
+## **6. Soldering Straps** (Soon to be updated)
 
 1. Identify the straps to modify (refer to the specific tutorial. This is different for every manufactor. I don't know how to find the correct one. Just try around. There are just 4 options available).
 2. Move the **resistors** to new positions to match the 16GB configuration.
