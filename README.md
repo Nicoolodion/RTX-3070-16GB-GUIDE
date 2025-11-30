@@ -131,7 +131,25 @@ Do **NOT** attempt this mod if you have never soldered before, or are not prepar
   - Open **NVIDIA Control Panel**.
   - Go to **3D Settings** > **Global Settings** > **Power Management Mode**.
   - Set to **Prefer Maximum Performance**.
+  
+  Some Windows components have a default profile added by Nvidia that overwrites the power settings, and should be changed to avoid random black screens [(Reference)](https://www.youtube.com/watch?v=EwXDcKiLSdg)
 
+  - Go to **3D Settings** > **Program Settings** 
+  - Look through every program on the list and scroll down, set the **Power Management Mode** to **Prefer Maximum Performance** or **Use global setting (Prefer Maximum Performance)** if not already. Some programs might have the value set to NVIDIA RECOMMENDED or Adaptive, which could cause random black screens. Examples includes:
+    - Windows Explorer
+    - Mircosoft Shell Experience Host
+    - Windows Lock Screen
+    - etc.
+
+  **(Optional)** Disable power saving modes (dynamic P-state) completely [(Reference)](https://www.youtube.com/watch?v=EwXDcKiLSdg)
+  
+  This will causes higher idle power draw (25% TDP, ~60W verus ~45W with Prefer Maximum Performance) but no longer requires changing individual Application Profiles
+
+  - Open regedit
+  - Go to `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000`
+  - Add a `DWORD32` called `DisableDynamicPstate` and set it to a value of `1`
+  - Reboot PC.
+  
 - **Solution 2:**
 
   - Open **Firestorm** , **Evga Precision X1**, **MSI Afterburner** or any other software that works with your GPU.
