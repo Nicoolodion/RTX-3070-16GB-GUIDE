@@ -1,6 +1,6 @@
 # RTX 3070 16GB VRAM Upgrade Guide
 
-This guide provides a detailed step-by-step process for upgrading the NVIDIA RTX 3070 graphics card to **16GB of VRAM**. The process involves replacing the existing VRAM modules with **2GB modules** and adjusting hardware straps.
+This guide provides a detailed step-by-step process for upgrading the NVIDIA RTX 3070 graphics card to **16GB of VRAM**. The process involves replacing the existing 8 1GB VRAM modules with 8 **2GB modules** and adjusting hardware straps.
 
 Do **NOT** attempt this mod if you have never soldered before, or are not prepared to lose your GPU! It is recommended to practice SMD Soldering on a burner GPU before working on your actual card. Any old GPU is will be fine as they all have similar VRAM chips and resistors you can practice on. Proceed at your own Risk!
 
@@ -43,7 +43,7 @@ Do **NOT** attempt this mod if you have never soldered before, or are not prepar
 ### **Parts:**
 
 - **VRAM Modules**:
-  - Samsung **K4ZAF325BM-HC14** (14 Gbps) or **K4ZAF325BM-HC16** (16 Gbps).
+  - 8x Samsung **K4ZAF325BM-HC14** (14 Gbps) or **K4ZAF325BM-HC16** (16 Gbps).
   - You might also want to have some spares in case you damage one.
 - Heat-resistant tape (Kapton tape or similar)
 - Thick metal shield for protecting GPU die during heating (thin sheet from an empty soda can is ideal, but take care not to cut yourself!)
@@ -169,4 +169,4 @@ Do **NOT** attempt this mod if you have never soldered before, or are not prepar
 - Don't be stupid. If you don't understand a single word from here. Please do NOT touch your GPU. This is an extremely risky modification.
 - For Legal reasons, I cannot be held liable for anything in this Guide. Follow at your own risk!
 
-If you run into any issues or have any questions, just email me or open an Issue. \:D
+If you run into any issues or have any questions, just open an Issue. :D
